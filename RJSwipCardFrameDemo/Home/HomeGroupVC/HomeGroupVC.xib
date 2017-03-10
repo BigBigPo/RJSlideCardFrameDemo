@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="11762" systemVersion="16D32" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11757"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="HomeGroupVC">
+            <connections>
+                <outlet property="navHeight" destination="Lsp-MW-D1a" id="txR-iZ-mKH"/>
+                <outlet property="navView" destination="5EC-Zg-tLx" id="9jW-KT-CIW"/>
+                <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view clipsSubviews="YES" clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="i5M-Pr-FkT">
+            <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="5EC-Zg-tLx">
+                    <rect key="frame" x="0.0" y="0.0" width="375" height="64"/>
+                    <subviews>
+                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="7hd-5J-mRd">
+                            <rect key="frame" x="0.0" y="0.0" width="375" height="64"/>
+                            <constraints>
+                                <constraint firstAttribute="height" constant="40" id="fKw-FC-BV6">
+                                    <variation key="heightClass=regular-widthClass=compact" constant="44"/>
+                                </constraint>
+                            </constraints>
+                            <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                            <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                            <nil key="highlightedColor"/>
+                            <variation key="default">
+                                <mask key="constraints">
+                                    <exclude reference="fKw-FC-BV6"/>
+                                </mask>
+                            </variation>
+                            <variation key="heightClass=regular-widthClass=compact">
+                                <mask key="constraints">
+                                    <exclude reference="fKw-FC-BV6"/>
+                                </mask>
+                            </variation>
+                        </label>
+                    </subviews>
+                    <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="64" id="Lsp-MW-D1a"/>
+                        <constraint firstAttribute="bottom" secondItem="7hd-5J-mRd" secondAttribute="bottom" id="Wg6-cg-pch"/>
+                        <constraint firstItem="7hd-5J-mRd" firstAttribute="leading" secondItem="5EC-Zg-tLx" secondAttribute="leading" id="fng-kv-ZKk"/>
+                        <constraint firstItem="7hd-5J-mRd" firstAttribute="top" secondItem="5EC-Zg-tLx" secondAttribute="top" constant="24" id="gzu-1H-9V7">
+                            <variation key="heightClass=regular-widthClass=compact" constant="0.0"/>
+                        </constraint>
+                        <constraint firstAttribute="trailing" secondItem="7hd-5J-mRd" secondAttribute="trailing" id="yFN-Q2-rc0"/>
+                    </constraints>
+                    <variation key="default">
+                        <mask key="subviews">
+                            <exclude reference="7hd-5J-mRd"/>
+                        </mask>
+                        <mask key="constraints">
+                            <exclude reference="Lsp-MW-D1a"/>
+                            <exclude reference="Wg6-cg-pch"/>
+                            <exclude reference="fng-kv-ZKk"/>
+                            <exclude reference="gzu-1H-9V7"/>
+                            <exclude reference="yFN-Q2-rc0"/>
+                        </mask>
+                    </variation>
+                    <variation key="heightClass=regular-widthClass=compact">
+                        <mask key="subviews">
+                            <include reference="7hd-5J-mRd"/>
+                        </mask>
+                        <mask key="constraints">
+                            <include reference="Lsp-MW-D1a"/>
+                            <include reference="Wg6-cg-pch"/>
+                            <include reference="fng-kv-ZKk"/>
+                            <include reference="gzu-1H-9V7"/>
+                            <include reference="yFN-Q2-rc0"/>
+                        </mask>
+                    </variation>
+                </view>
+            </subviews>
+            <color key="backgroundColor" red="0.46274509800000002" green="0.58823529409999997" blue="0.87058823529999996" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+            <constraints>
+                <constraint firstItem="5EC-Zg-tLx" firstAttribute="top" secondItem="i5M-Pr-FkT" secondAttribute="top" id="BQm-oU-GDs"/>
+                <constraint firstItem="5EC-Zg-tLx" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" id="brF-qR-b1B"/>
+                <constraint firstAttribute="trailing" secondItem="5EC-Zg-tLx" secondAttribute="trailing" id="xLS-y7-bmp"/>
+            </constraints>
+            <variation key="default">
+                <mask key="subviews">
+                    <exclude reference="5EC-Zg-tLx"/>
+                </mask>
+                <mask key="constraints">
+                    <exclude reference="BQm-oU-GDs"/>
+                    <exclude reference="brF-qR-b1B"/>
+                    <exclude reference="xLS-y7-bmp"/>
+                </mask>
+            </variation>
+            <variation key="heightClass=regular-widthClass=compact">
+                <mask key="subviews">
+                    <include reference="5EC-Zg-tLx"/>
+                </mask>
+                <mask key="constraints">
+                    <include reference="BQm-oU-GDs"/>
+                    <include reference="brF-qR-b1B"/>
+                    <include reference="xLS-y7-bmp"/>
+                </mask>
+            </variation>
+        </view>
+    </objects>
+</document>

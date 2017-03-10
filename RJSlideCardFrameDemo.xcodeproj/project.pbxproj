@@ -1,0 +1,437 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		CEBA512D1E72C1AD00E2830A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = CEBA512C1E72C1AD00E2830A /* main.m */; };
+		CEBA51301E72C1AD00E2830A /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = CEBA512F1E72C1AD00E2830A /* AppDelegate.m */; };
+		CEBA51331E72C1AD00E2830A /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CEBA51321E72C1AD00E2830A /* ViewController.m */; };
+		CEBA51361E72C1AD00E2830A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CEBA51341E72C1AD00E2830A /* Main.storyboard */; };
+		CEBA51381E72C1AD00E2830A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CEBA51371E72C1AD00E2830A /* Assets.xcassets */; };
+		CEBA513B1E72C1AD00E2830A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CEBA51391E72C1AD00E2830A /* LaunchScreen.storyboard */; };
+		CEBA515E1E72C1F900E2830A /* CALayer+RJLayer.m in Sources */ = {isa = PBXBuildFile; fileRef = CEBA51441E72C1F900E2830A /* CALayer+RJLayer.m */; };
+		CEBA515F1E72C1F900E2830A /* RJControl.m in Sources */ = {isa = PBXBuildFile; fileRef = CEBA51461E72C1F900E2830A /* RJControl.m */; };
+		CEBA51601E72C1F900E2830A /* UIView+RJView.m in Sources */ = {isa = PBXBuildFile; fileRef = CEBA51481E72C1F900E2830A /* UIView+RJView.m */; };
+		CEBA51611E72C1F900E2830A /* HomeGroupVC.m in Sources */ = {isa = PBXBuildFile; fileRef = CEBA514C1E72C1F900E2830A /* HomeGroupVC.m */; };
+		CEBA51621E72C1F900E2830A /* HomeGroupVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = CEBA514D1E72C1F900E2830A /* HomeGroupVC.xib */; };
+		CEBA51631E72C1F900E2830A /* HomeListVC.m in Sources */ = {isa = PBXBuildFile; fileRef = CEBA51501E72C1F900E2830A /* HomeListVC.m */; };
+		CEBA51641E72C1F900E2830A /* HomeListVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = CEBA51511E72C1F900E2830A /* HomeListVC.xib */; };
+		CEBA51651E72C1F900E2830A /* HomeVC.m in Sources */ = {isa = PBXBuildFile; fileRef = CEBA51541E72C1F900E2830A /* HomeVC.m */; };
+		CEBA51661E72C1F900E2830A /* HomeVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = CEBA51551E72C1F900E2830A /* HomeVC.xib */; };
+		CEBA51671E72C1F900E2830A /* MsgView.m in Sources */ = {isa = PBXBuildFile; fileRef = CEBA51581E72C1F900E2830A /* MsgView.m */; };
+		CEBA51681E72C1F900E2830A /* MsgView.xib in Resources */ = {isa = PBXBuildFile; fileRef = CEBA51591E72C1F900E2830A /* MsgView.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		CEBA51281E72C1AD00E2830A /* RJSlideCardFrameDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RJSlideCardFrameDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		CEBA512C1E72C1AD00E2830A /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		CEBA512E1E72C1AD00E2830A /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		CEBA512F1E72C1AD00E2830A /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		CEBA51311E72C1AD00E2830A /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		CEBA51321E72C1AD00E2830A /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		CEBA51351E72C1AD00E2830A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		CEBA51371E72C1AD00E2830A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		CEBA513A1E72C1AD00E2830A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		CEBA513C1E72C1AD00E2830A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CEBA51431E72C1F900E2830A /* CALayer+RJLayer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "CALayer+RJLayer.h"; sourceTree = "<group>"; };
+		CEBA51441E72C1F900E2830A /* CALayer+RJLayer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "CALayer+RJLayer.m"; sourceTree = "<group>"; };
+		CEBA51451E72C1F900E2830A /* RJControl.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RJControl.h; sourceTree = "<group>"; };
+		CEBA51461E72C1F900E2830A /* RJControl.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RJControl.m; sourceTree = "<group>"; };
+		CEBA51471E72C1F900E2830A /* UIView+RJView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+RJView.h"; sourceTree = "<group>"; };
+		CEBA51481E72C1F900E2830A /* UIView+RJView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+RJView.m"; sourceTree = "<group>"; };
+		CEBA514B1E72C1F900E2830A /* HomeGroupVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HomeGroupVC.h; sourceTree = "<group>"; };
+		CEBA514C1E72C1F900E2830A /* HomeGroupVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HomeGroupVC.m; sourceTree = "<group>"; };
+		CEBA514D1E72C1F900E2830A /* HomeGroupVC.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = HomeGroupVC.xib; sourceTree = "<group>"; };
+		CEBA514F1E72C1F900E2830A /* HomeListVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HomeListVC.h; sourceTree = "<group>"; };
+		CEBA51501E72C1F900E2830A /* HomeListVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HomeListVC.m; sourceTree = "<group>"; };
+		CEBA51511E72C1F900E2830A /* HomeListVC.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = HomeListVC.xib; sourceTree = "<group>"; };
+		CEBA51531E72C1F900E2830A /* HomeVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HomeVC.h; sourceTree = "<group>"; };
+		CEBA51541E72C1F900E2830A /* HomeVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HomeVC.m; sourceTree = "<group>"; };
+		CEBA51551E72C1F900E2830A /* HomeVC.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = HomeVC.xib; sourceTree = "<group>"; };
+		CEBA51571E72C1F900E2830A /* MsgView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MsgView.h; sourceTree = "<group>"; };
+		CEBA51581E72C1F900E2830A /* MsgView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MsgView.m; sourceTree = "<group>"; };
+		CEBA51591E72C1F900E2830A /* MsgView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MsgView.xib; sourceTree = "<group>"; };
+		CEBA515B1E72C1F900E2830A /* CT_pch.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CT_pch.h; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CEBA51251E72C1AD00E2830A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		CEBA511F1E72C1AD00E2830A = {
+			isa = PBXGroup;
+			children = (
+				CEBA512A1E72C1AD00E2830A /* RJSlideCardFrameDemo */,
+				CEBA51291E72C1AD00E2830A /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		CEBA51291E72C1AD00E2830A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CEBA51281E72C1AD00E2830A /* RJSlideCardFrameDemo.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CEBA512A1E72C1AD00E2830A /* RJSlideCardFrameDemo */ = {
+			isa = PBXGroup;
+			children = (
+				CEBA512E1E72C1AD00E2830A /* AppDelegate.h */,
+				CEBA512F1E72C1AD00E2830A /* AppDelegate.m */,
+				CEBA51311E72C1AD00E2830A /* ViewController.h */,
+				CEBA51321E72C1AD00E2830A /* ViewController.m */,
+				CEBA51491E72C1F900E2830A /* Home */,
+				CEBA51421E72C1F900E2830A /* Extension */,
+				CEBA515A1E72C1F900E2830A /* Tools */,
+				CEBA51341E72C1AD00E2830A /* Main.storyboard */,
+				CEBA51371E72C1AD00E2830A /* Assets.xcassets */,
+				CEBA51391E72C1AD00E2830A /* LaunchScreen.storyboard */,
+				CEBA513C1E72C1AD00E2830A /* Info.plist */,
+				CEBA512B1E72C1AD00E2830A /* Supporting Files */,
+			);
+			name = RJSlideCardFrameDemo;
+			path = RJSwipCardFrameDemo;
+			sourceTree = "<group>";
+		};
+		CEBA512B1E72C1AD00E2830A /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				CEBA512C1E72C1AD00E2830A /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		CEBA51421E72C1F900E2830A /* Extension */ = {
+			isa = PBXGroup;
+			children = (
+				CEBA51431E72C1F900E2830A /* CALayer+RJLayer.h */,
+				CEBA51441E72C1F900E2830A /* CALayer+RJLayer.m */,
+				CEBA51451E72C1F900E2830A /* RJControl.h */,
+				CEBA51461E72C1F900E2830A /* RJControl.m */,
+				CEBA51471E72C1F900E2830A /* UIView+RJView.h */,
+				CEBA51481E72C1F900E2830A /* UIView+RJView.m */,
+			);
+			path = Extension;
+			sourceTree = "<group>";
+		};
+		CEBA51491E72C1F900E2830A /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				CEBA514A1E72C1F900E2830A /* HomeGroupVC */,
+				CEBA514E1E72C1F900E2830A /* HomeListVC */,
+				CEBA51521E72C1F900E2830A /* HomeVC */,
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
+		CEBA514A1E72C1F900E2830A /* HomeGroupVC */ = {
+			isa = PBXGroup;
+			children = (
+				CEBA514B1E72C1F900E2830A /* HomeGroupVC.h */,
+				CEBA514C1E72C1F900E2830A /* HomeGroupVC.m */,
+				CEBA514D1E72C1F900E2830A /* HomeGroupVC.xib */,
+			);
+			path = HomeGroupVC;
+			sourceTree = "<group>";
+		};
+		CEBA514E1E72C1F900E2830A /* HomeListVC */ = {
+			isa = PBXGroup;
+			children = (
+				CEBA514F1E72C1F900E2830A /* HomeListVC.h */,
+				CEBA51501E72C1F900E2830A /* HomeListVC.m */,
+				CEBA51511E72C1F900E2830A /* HomeListVC.xib */,
+			);
+			path = HomeListVC;
+			sourceTree = "<group>";
+		};
+		CEBA51521E72C1F900E2830A /* HomeVC */ = {
+			isa = PBXGroup;
+			children = (
+				CEBA51531E72C1F900E2830A /* HomeVC.h */,
+				CEBA51541E72C1F900E2830A /* HomeVC.m */,
+				CEBA51551E72C1F900E2830A /* HomeVC.xib */,
+				CEBA51561E72C1F900E2830A /* MsgView */,
+			);
+			path = HomeVC;
+			sourceTree = "<group>";
+		};
+		CEBA51561E72C1F900E2830A /* MsgView */ = {
+			isa = PBXGroup;
+			children = (
+				CEBA51571E72C1F900E2830A /* MsgView.h */,
+				CEBA51581E72C1F900E2830A /* MsgView.m */,
+				CEBA51591E72C1F900E2830A /* MsgView.xib */,
+			);
+			path = MsgView;
+			sourceTree = "<group>";
+		};
+		CEBA515A1E72C1F900E2830A /* Tools */ = {
+			isa = PBXGroup;
+			children = (
+				CEBA515B1E72C1F900E2830A /* CT_pch.h */,
+			);
+			path = Tools;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CEBA51271E72C1AD00E2830A /* RJSlideCardFrameDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CEBA513F1E72C1AD00E2830A /* Build configuration list for PBXNativeTarget "RJSlideCardFrameDemo" */;
+			buildPhases = (
+				CEBA51241E72C1AD00E2830A /* Sources */,
+				CEBA51251E72C1AD00E2830A /* Frameworks */,
+				CEBA51261E72C1AD00E2830A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = RJSlideCardFrameDemo;
+			productName = RJSwipCardFrameDemo;
+			productReference = CEBA51281E72C1AD00E2830A /* RJSlideCardFrameDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CEBA51201E72C1AD00E2830A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = Po;
+				TargetAttributes = {
+					CEBA51271E72C1AD00E2830A = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = L5768E6K27;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = CEBA51231E72C1AD00E2830A /* Build configuration list for PBXProject "RJSlideCardFrameDemo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CEBA511F1E72C1AD00E2830A;
+			productRefGroup = CEBA51291E72C1AD00E2830A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CEBA51271E72C1AD00E2830A /* RJSlideCardFrameDemo */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		CEBA51261E72C1AD00E2830A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CEBA513B1E72C1AD00E2830A /* LaunchScreen.storyboard in Resources */,
+				CEBA51661E72C1F900E2830A /* HomeVC.xib in Resources */,
+				CEBA51641E72C1F900E2830A /* HomeListVC.xib in Resources */,
+				CEBA51381E72C1AD00E2830A /* Assets.xcassets in Resources */,
+				CEBA51681E72C1F900E2830A /* MsgView.xib in Resources */,
+				CEBA51361E72C1AD00E2830A /* Main.storyboard in Resources */,
+				CEBA51621E72C1F900E2830A /* HomeGroupVC.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CEBA51241E72C1AD00E2830A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CEBA51331E72C1AD00E2830A /* ViewController.m in Sources */,
+				CEBA515E1E72C1F900E2830A /* CALayer+RJLayer.m in Sources */,
+				CEBA51301E72C1AD00E2830A /* AppDelegate.m in Sources */,
+				CEBA51651E72C1F900E2830A /* HomeVC.m in Sources */,
+				CEBA515F1E72C1F900E2830A /* RJControl.m in Sources */,
+				CEBA51611E72C1F900E2830A /* HomeGroupVC.m in Sources */,
+				CEBA51631E72C1F900E2830A /* HomeListVC.m in Sources */,
+				CEBA512D1E72C1AD00E2830A /* main.m in Sources */,
+				CEBA51671E72C1F900E2830A /* MsgView.m in Sources */,
+				CEBA51601E72C1F900E2830A /* UIView+RJView.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		CEBA51341E72C1AD00E2830A /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CEBA51351E72C1AD00E2830A /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		CEBA51391E72C1AD00E2830A /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CEBA513A1E72C1AD00E2830A /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		CEBA513D1E72C1AD00E2830A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		CEBA513E1E72C1AD00E2830A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		CEBA51401E72C1AD00E2830A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = L5768E6K27;
+				INFOPLIST_FILE = RJSwipCardFrameDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = LittlePo.RJSwipCardFrameDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		CEBA51411E72C1AD00E2830A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = L5768E6K27;
+				INFOPLIST_FILE = RJSwipCardFrameDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = LittlePo.RJSwipCardFrameDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CEBA51231E72C1AD00E2830A /* Build configuration list for PBXProject "RJSlideCardFrameDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CEBA513D1E72C1AD00E2830A /* Debug */,
+				CEBA513E1E72C1AD00E2830A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CEBA513F1E72C1AD00E2830A /* Build configuration list for PBXNativeTarget "RJSlideCardFrameDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CEBA51401E72C1AD00E2830A /* Debug */,
+				CEBA51411E72C1AD00E2830A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = CEBA51201E72C1AD00E2830A /* Project object */;
+}
